@@ -1,0 +1,12 @@
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-Bold.otf);
+}
+.font{
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+}
+.border-radius{
+    border-radius: 25px;
+    padding: 8px 25px;
+}
