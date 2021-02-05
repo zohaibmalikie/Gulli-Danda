@@ -4,7 +4,7 @@ import Logo from '../assets/img/top_logo.png'
  function navbar() {
     return (
         <React.Fragment>
-{/* <div className="pl-2 pr-5 padding-top4">
+<div className="pl-2 pr-5 padding-top4">
 <div className="row">
     <div className="col-md-3 p-0 text-center">
         <img src={Logo} alt="There is logo" className="img-fluid w-64"/>
@@ -37,14 +37,7 @@ import Logo from '../assets/img/top_logo.png'
         </div>
     </div>
 </div>
-</div> */}
-<div className="container">
-    <div className="row ">
-        <div className="col-md-3 ">
-        <img src={Logo} alt="There is logo" className="w-64"/>
-        </div>
-    </div>
-    </div>
+</div>
 
 
         </React.Fragment>
