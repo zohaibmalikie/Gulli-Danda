@@ -2,11 +2,39 @@
     font-family: Montserrat-Bold;
     src: url(../fonts/Montserrat-Bold.otf);
 }
+.bg-red-color{
+    background-color: #EE1C25;
+    color: #fff;
+}
+.red-color{
+    color: #EE1C25;
+}
+.padding-top4{
+    padding-top: 1.8rem;
+}
+.w-64{
+    width: 64% !important;
+}
 .font{
     font-family: Montserrat-Bold;
     font-size: 16px;
 }
+.hover-color:hover{
+    color: #EE1C25;
+    transition: 0.5s;
+}
 .border-radius{
     border-radius: 25px;
-    padding: 8px 25px;
+    padding: 5px 12px;
+    font-weight: 400 !important;
+}
+.zero{
+    position: absolute;
+    border-radius: 25px;
+    font-size: 12px;
+    top: 0;
+    right: 28px;
+padding: 4px 6px;
+background-color: rgb(236, 236, 236);
+
 }
