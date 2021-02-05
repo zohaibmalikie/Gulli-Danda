@@ -27,13 +27,13 @@ import Logo from '../assets/img/top_logo.png'
         <div className="col-md-8">
             <div className="row justify-content-end">
 
-        <button type="button" className="btn bg-red-color font border-radius  ">Login</button>
-        <button type="button" className="btn bg-red-color font border-radius  ml-3">Signup</button>
+        <button type="button" class="btn bg-red-color font border-radius  ">Login</button>
+        <button type="button" class="btn bg-red-color font border-radius  ml-3">Signup</button>
         </div>
             </div>
         <div className="col-md-4  h1 p-0 m-0 d-flex align-self-start justify-content-center">
             <p className="zero ">O</p>
-           <i className="fa fa-shopping-cart red-color m-0" aria-hidden="true"></i>
+           <i class="fa fa-shopping-cart red-color m-0" aria-hidden="true"></i>
         </div>
     </div>
 </div>
