@@ -12,5 +12,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
 }
+@font-face{
+  font-family: Montserrat-Bold;
+  src: url(../src/Components/assets/font/Montserrat-Bold.otf);
+}
+.bg-red-color{
+  background-color: #EE1C25;
+  color: #fff;
+}
+.red-color{
+  color: #EE1C25 !important;
+}
+.font{
+  font-family: Montserrat-Bold;
+  
+}
+.f-16{
+  font-size: 16px;
+}
+
 
 

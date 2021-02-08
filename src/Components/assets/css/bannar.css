@@ -1,0 +1,67 @@
+.background-image{
+    background-image: url('../img/1602662881966_pic.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.large-font{
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    text-transform:uppercase ;
+    line-height: 0.8;
+    font-family: Montserrat-Bold;
+
+}
+.animation{
+    width: 100%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.8s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  @keyframes example {
+    from {
+        left: -70%;
+        opacity:0;
+    }
+    to {
+        left: 0%;
+        opacity: 1;
+    }
+  }
+.btn-animation{
+    position: relative;
+    animation-name: button;
+    animation-duration: 2s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  @keyframes button {
+    from {
+        left: -70%;
+        opacity:0;
+    }
+    to {
+        left: 0%;
+        opacity: 1;
+    }
+  }
+
+  .f-48{
+      font-size: 48px;
+  }
+  .w-150{
+    width: 130px;
+    height: 200px;
+    margin: auto;
+  }
+
+  .w-150>img{
+    height: fit-content;
+width: fit-content;  
+}
+
+  #border-none{
+border-right: 0px !important;
+  }
