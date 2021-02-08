@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/css/navbar.css'
-import Logo from '../assets/img/top_logo.png'
+import Logo from '../assets/img/top_logo1.png'
  function navbar() {
     return (
         <React.Fragment>
