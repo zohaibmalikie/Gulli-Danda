@@ -47,21 +47,17 @@
         opacity: 1;
     }
   }
-
   .f-48{
       font-size: 48px;
   }
-  .w-150{
-    width: 130px;
-    height: 200px;
-    margin: auto;
+  .height-step{
+
+  height: 200px;
   }
+  .padding{
+  padding:0px 100px ;
 
-  .w-150>img{
-    height: fit-content;
-width: fit-content;  
-}
-
+  }
   #border-none{
-border-right: 0px !important;
+     border-right: 0px !important;
   }

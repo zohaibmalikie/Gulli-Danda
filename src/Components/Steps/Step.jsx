@@ -7,8 +7,8 @@ function Step(props) {
                 <div className="h2">
                     {props.name}
                 </div>
-            <div className="">
-            <img src={props.source} alt="there is image" className="w-150 pt-2 img-fluid"/>
+            <div className="height-step d-flex align-items-center">
+            <img src={props.source} alt="there is image" className="padding img-fluid"/>
             </div>
                 <div className="h6">
                     {props.label}

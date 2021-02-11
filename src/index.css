@@ -10,11 +10,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 
 }
 @font-face{
   font-family: Montserrat-Bold;
   src: url(../src/Components/assets/font/Montserrat-Bold.otf);
+}
+@font-face{
+  font-family: Montserrat-medium;
+  src: url(../src/Components/assets/font/Montserrat-Medium.otf);
 }
 .bg-red-color{
   background-color: #EE1C25;
@@ -30,6 +35,26 @@ body {
 .f-16{
   font-size: 16px;
 }
+.D6E2F3{
+  color: #D6E2F3;
+}
+.D6E2F3:hover{
+  color: #D6E2F3;
+}
+.font-medium{  
+  font-family: Montserrat-medium;
+}
+.w-33{
+  width: 33.7%;
+}
 
-
+/* Winner Css */
+.bg-winner-img{
+  background-image: url('./Components/assets/img/winner.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.height-winner{
+  height: 15rem;
+}
 

@@ -2,6 +2,9 @@ import React from "react";
 import "../assets/css/navbar.css";
 import ButtonCode from "../button/ButtonCode";
 import Logo from "../assets/img/top_logo1.png";
+
+
+
 function navbar() {
   return (
     <React.Fragment>
@@ -14,16 +17,16 @@ function navbar() {
             <div className="col-md-3 p-0 mb-2 text-center text-uppercase">
 
                {/* NavItems used with Props & imported*/}
-              <NavItems name="Competitions" />
+              <NavItems  name="Competitions" />
             </div>
-            <div className="col-md-3 p-0 mb-2 text-center text-uppercase">
-              <NavItems name="Winner" />
+              <div className="col-md-3 p-0 mb-2 text-center text-uppercase">
+              <NavItems   name="Winner" />
             </div>
             <div className="col-md-2 p-0 mb-2 text-center text-uppercase">
-              <NavItems name="About" />
+              <NavItems  name="About" />
             </div>
-            <div className="col-md-3 p-0 mb-2 text-center text-uppercase ">
-              <NavItems name="Contact us" />
+            <div className="col-md-3 p-0 mb-2 text-center text-uppercase">
+              <NavItems  name="Contact us" />
             </div>
           </div>
           <div className="col-md-4 d-flex align-self-end p-0 justify-content-end mb-1 pb-2">
@@ -48,8 +51,7 @@ function navbar() {
 
 const NavItems = ({ name }) => {
   // const {name} = props;
-  return <p className="font m-0 hover-red"> {name}</p>;
+  return <p className="animateOnclick font m-0 hover-red animate__animated" id=""> {name}</p>;
 };
-
 export default navbar;
-// export { NavItems };
+
