@@ -35,21 +35,21 @@ function footer() {
               target="_blank"
               className="D6E2F3 h1 pr-2"
             >
-              <i class="fa fa-facebook-square"></i>{" "}
+              <i className="fa fa-facebook-square"></i>{" "}
             </a>
             <a
               href="https://www.instagram.com/"
               target="_blank"
               className="D6E2F3 h1 pr-2"
             >
-              <i class="fa fa-instagram"></i>
+              <i className="fa fa-instagram"></i>
             </a>
             <a
               href="https://www.youtube.com/"
               target="_blank"
               className="D6E2F3 h1"
             >
-              <i class="fa fa-youtube-play"></i>
+              <i className="fa fa-youtube-play"></i>
             </a>
           </div>
         </div>

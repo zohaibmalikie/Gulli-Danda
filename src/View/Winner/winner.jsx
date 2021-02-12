@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../Navbar/navbar";
-import MainHeading from "../main-bannar/MainHeading";
-import Footer from "../footer/footer";
-import WinImg1 from "../assets/img/1603607405926__MG_1983.jpg";
-import WinImg2 from "../assets/img/1602771092342_284967.4-3-1.jpg";
+import Navbar from "../../Components/Navbar/navbar";
+import MainHeading from "../../Components/main-bannar/MainHeading";
+import Footer from "../../Components/footer/footer";
+import WinImg1 from "../../Components/assets/img/1603607405926__MG_1983.jpg";
+import WinImg2 from "../../Components/assets/img/1602771092342_284967.4-3-1.jpg";
 function Winner() {
   return (
     <React.Fragment>
@@ -42,7 +42,7 @@ function Winner() {
                 <h5 className="font m-0">Naina Gowda</h5>
               </p>
             </div>
-            <img className="card-img-top m-0 p-0 height-winner" src={WinImg1} alt="Card image cap" />
+            <img className="card-img-top m-0 p-0 height-winner" src={WinImg2} alt="Card image cap" />
             <div className="card-body p-0 m-0">
               <p className="card-text text-center text-white bg-red-color pt-3 pb-3 d-flex justify-content-between">
                 <span className="font-weight-light text-left pl-2">2020-10-16</span>

@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../Navbar/navbar";
-import Bannar from "../main-bannar/bannar";
-import Footer from "../footer/footer";
+import Navbar from "../../Components/Navbar/navbar";
+import Bannar from "../../Components/main-bannar/bannar";
+import Footer from "../../Components/footer/footer";
 function Home() {
   return (
     <React.Fragment>

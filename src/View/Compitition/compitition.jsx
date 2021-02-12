@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../Navbar/navbar";
-import Footer from "../footer/footer";
-import MainHeading from "../main-bannar/MainHeading";
-import Button from "../button/ButtonCode";
-import CompiImg from "../assets/img/1605791497614_cash prize 30000.jpg";
+import Navbar from "../../Components/Navbar/navbar";
+import Footer from "../../Components/footer/footer";
+import MainHeading from "../../Components/main-bannar/MainHeading";
+import Button from "../../Components/button/ButtonCode";
+import CompiImg from "../../Components/assets/img/1605791497614_cash prize 30000.jpg";
 
 function Compitition() {
   return (
