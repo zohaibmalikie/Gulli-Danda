@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './View/HomePage/Home'
 import Compitition from './View/Compitition/compitition'
 import Winner from './View/Winner/winner'
@@ -9,14 +10,21 @@ import './App.css'
 
 function App() {
   return (
+
+    <Router>
     <div className="App">
-   
-{/* <Home/> */}
+      <Switch>\
+
+   <Route exact path="/" component={Home} />
+   <Route path="/about" component={About} />
+
+      </Switch>
 {/* <Compitition/> */}
 {/* <Winner/> */}
 {/* <About/> */}
-<Contact/>
+{/* <Contact/> */}
      </div>
+    </Router>
   );
 }
 
