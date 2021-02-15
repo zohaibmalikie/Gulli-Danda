@@ -13,16 +13,16 @@ function App() {
 
     <Router>
     <div className="App">
-      <Switch>\
+      <Switch>
 
-   <Route exact path="/" component={Home} />
+   <Route exact path="/home" component={Home} />
+   <Route path="/compitition" component={Compitition} />
+   <Route path="/winner" component={Winner} />
    <Route path="/about" component={About} />
+   <Route path="/contact" component={Contact} />
 
       </Switch>
-{/* <Compitition/> */}
-{/* <Winner/> */}
-{/* <About/> */}
-{/* <Contact/> */}
+
      </div>
     </Router>
   );
