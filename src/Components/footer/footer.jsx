@@ -6,7 +6,7 @@ function footer() {
       <div>
         <div className="row bg-dark pl-3 pb-2 pt-4  mt-5">
           <div className="col-md-6">
-            <img src={FooterImg} alt="" className="img-fluid w-50" />
+            <img src={FooterImg}  className="img-fluid w-50"  alt="...."/>
           </div>
           <div className="col-md-4 font-medium h3 pt-2">
             <a href="http://" className="D6E2F3">

@@ -14,45 +14,45 @@ function owlCarousel() {
         {/* card one */}
         <div className="col-md-4 card-deck">
           <div className="card  width">
-            <img className="card-img-top" src={Card1} alt="Card image cap" />
+            <img className="card-img-top" src={Card1} alt="...."/>
             <div className="card-body p-0 m-0">
-              <p className="card-text text-center text-white bg-red-color pt-3 pb-3">
+              <div className="card-text text-center text-white bg-red-color pt-3 pb-3">
                 <h5 className="font mb-3">Name is here</h5>
 
                 <span className="font-weight-light h5 mt-4">
                   Winner 50000/-
                 </span>
-              </p>
+              </div>
             </div>
           </div>
         </div>
         {/* card two */}
         <div className="col-md-4 card-deck">
           <div className="card  width">
-            <img className="card-img-top" src={Card1} alt="Card image cap" />
+            <img className="card-img-top" src={Card1} alt="...." />
              <div className="card-body p-0 m-0">
-              <p className="card-text text-center text-white bg-red-color pt-3 pb-3">
+              <div className="card-text text-center text-white bg-red-color pt-3 pb-3">
                 <h5 className="font mb-3">Name is here</h5>
 
                 <span className="font-weight-light h5 mt-4">
                   Winner 50000/-
                 </span>
-              </p>
+              </div>
             </div>
           </div>
         </div>
         {/* card three */}
         <div className="col-md-4 card-deck">
           <div className="card width">
-            <img className="card-img-top" src={Card1} alt="Card image cap" />
+            <img className="card-img-top" src={Card1} alt="...." />
              <div className="card-body p-0 m-0">
-              <p className="card-text text-center text-white bg-red-color pt-3 pb-3">
+              <div className="card-text text-center text-white bg-red-color pt-3 pb-3">
                 <h5 className="font mb-3">Name is here</h5>
 
                 <span className="font-weight-light h5 mt-4">
                   Winner 50000/-
                 </span>
-              </p>
+              </div>
             </div>
           </div>
         </div>

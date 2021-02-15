@@ -45,7 +45,7 @@ function Sidebar() {
             <div className="col-md-12 font-light">
               <button
                 type="button"
-                class="btn btn-light w-100 contact-input font-14 p-2 cart-button"
+                className="btn btn-light w-100 contact-input font-14 p-2 cart-button"
               >
            
                 <i
@@ -60,7 +60,7 @@ function Sidebar() {
             <div className="col-md-12 font-light">
               <button
                 type="button"
-                class="btn btn-light w-100 contact-input font-14 p-2 cart-button"
+                className="btn btn-light w-100 contact-input font-14 p-2 cart-button"
               >
            
                 <i

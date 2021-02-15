@@ -23,7 +23,7 @@ function Winner() {
                 <h5 className="font m-0">Naina Gowda</h5>
               </p>
             </div>
-            <img className="card-img-top m-0 p-0 height-winner" src={WinImg1} alt="Card image cap" />
+            <img className="card-img-top m-0 p-0 height-winner" src={WinImg1} alt="...."/>
             <div className="card-body p-0 m-0">
               <p className="card-text text-center text-white bg-red-color pt-3 pb-3 d-flex justify-content-between">
                 <span className="font-weight-light text-left pl-2">2020-10-16</span>
@@ -42,7 +42,7 @@ function Winner() {
                 <h5 className="font m-0">Naina Gowda</h5>
               </p>
             </div>
-            <img className="card-img-top m-0 p-0 height-winner" src={WinImg2} alt="Card image cap" />
+            <img className="card-img-top m-0 p-0 height-winner" src={WinImg2} alt="...."/>
             <div className="card-body p-0 m-0">
               <p className="card-text text-center text-white bg-red-color pt-3 pb-3 d-flex justify-content-between">
                 <span className="font-weight-light text-left pl-2">2020-10-16</span>
@@ -61,7 +61,7 @@ function Winner() {
                 <h5 className="font m-0">Naina Gowda</h5>
               </p>
             </div>
-            <img className="card-img-top m-0 p-0 height-winner" src={WinImg1} alt="Card image cap" />
+            <img className="card-img-top m-0 p-0 height-winner" src={WinImg1} alt="...."/>
             <div className="card-body p-0 m-0">
               <p className="card-text text-center text-white bg-red-color pt-3 pb-3 d-flex justify-content-between">
                 <span className="font-weight-light text-left pl-2">2020-10-16</span>

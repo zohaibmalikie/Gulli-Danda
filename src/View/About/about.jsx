@@ -38,7 +38,7 @@ function About() {
               with Gullidanda.
             </p>
             <div className="col-md-4 pl-4 pb-3">
-              <img src={Logo} alt="There is logo" className="img-fluid" />
+              <img src={Logo} className="img-fluid" alt="...."/>
             </div>
             <p className="text-justify font-medium h5 pr-3 pl-4 pt-3 about-line-height">
               With years of experience and a will to succeed, Gullidanda is
@@ -84,8 +84,8 @@ function About() {
             <div className="card col-md-7 m-auto p-0 border-0">
               <img
                 className="card-img-top"
-                src={AboutImg}
-                alt="Card image cap"
+                src={AboutImg} 
+                alt="...."
                 className="img-fluid about-border-radius"
               />
               <div className="card-body text-center ">

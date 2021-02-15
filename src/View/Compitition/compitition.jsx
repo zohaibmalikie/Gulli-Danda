@@ -16,7 +16,7 @@ function Compitition() {
           className="bg-red-color font-medium  h3 border-0 w-33 pt-2 pb-2 m-0 mt-5"
         />
         <br />
-        <img src={CompiImg} alt="" className="w-33"/>
+        <img src={CompiImg}  className="w-33" alt="...."/>
         <br />
         <Button
           name="Play now"
