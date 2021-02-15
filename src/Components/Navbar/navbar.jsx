@@ -63,14 +63,19 @@ function navbar() {
             <div className="col-md-8">
               <div className="row justify-content-end">
                 {/* Buttons used with Props & imported*/}
+                <Link to="/login">
                 <ButtonCode
                   className="btn bg-red-color font border-radius"
                   name="Login"
                 />
+                </Link>
+                <Link to="/signup">
+              
                 <ButtonCode
                   className="btn bg-red-color font border-radius  ml-3"
                   name="Signin"
-                />
+                  />
+                  </Link>
               </div>
             </div>
             <Sidebar />

@@ -73,6 +73,9 @@ body {
 .about-border-radius{
   border-radius: 10px;
 }
+.login-border-radius{
+  border-radius: 25px;
+}
 .font-11{
   font-size: 11px;
 }
@@ -89,5 +92,22 @@ a{
 a:hover{
 
   text-decoration: none;
+}
+.light-blue{
+  background-color:#627aac;
+}
+.flag{
+  background-image: url('./Components/assets/img/flag.png');
+  background-repeat: no-repeat!important;
+  background-size: 20px 20px!important;
+  background-position: 13px 8px!important;
+  padding-left: 70px!important;
+  font-size: 16px;
+}
+.phone-number{
+  position: absolute;
+  left: 38px;
+  z-index: 111;
+  top: 7px;
 }
 
