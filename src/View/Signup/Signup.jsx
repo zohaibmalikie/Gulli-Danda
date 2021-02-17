@@ -83,7 +83,8 @@ function Signup() {
                 <Button
                   name="Register"
                   className=" font-light font-14 border-0 pl-3 pr-3 pt-1 pb-1 login-border-radius bg-red-color text-white"
-                />
+                  
+               />
               </div>
             </div>
           </div>

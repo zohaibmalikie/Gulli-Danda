@@ -32,7 +32,7 @@ function navbar() {
       <div className="pl-1 pr-5 padding-top4">
         <div className="row">
           <div className="col-md-3 p-0 text-center">
-            <Link to="/">
+            <Link to="/home">
             <img src={Logo}  className="img-fluid" alt="...."/>
             </Link>
           </div>
