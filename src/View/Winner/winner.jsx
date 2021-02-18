@@ -8,7 +8,7 @@ function Winner() {
   return (
     <React.Fragment>
       <Navbar />
-      <div className="bg-winner-img ml-3 mr-3 mt-3">
+      <div className="bg-winner-img mt-3">
         <MainHeading
           heading="WINNERS"
           className=" pt-5 pb-5"

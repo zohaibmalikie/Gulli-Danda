@@ -13,7 +13,7 @@ export default function Bannar() {
   return (
     <React.Fragment>
       {/* Bannar Code */}
-      <div className="background-image col-md-12 p-0 mt-5 m-0 row">
+      <div className="background-image col-md-12 p-0 mt-3 m-0 row">
         <div className="col-md-7 m-0 pt-5"></div>
         <div className="m-0 pt-5 col-md-5 animation ">
           <span className="p-0 m-0 large-font">The</span>
