@@ -7,7 +7,6 @@ import About from './View/About/about'
 import Contact from './View/Contact/contact'
 import Login from './View/Login/Login'
 import Signup from './View/Signup/Signup'
-
 import './App.css'
 
 function App() {
@@ -30,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

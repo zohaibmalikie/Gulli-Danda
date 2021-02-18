@@ -9,6 +9,7 @@ function Sidebar() {
     document.getElementById("mySidenav").style.width = "0";
     let x = document.getElementById("positionAb");
     x.style.width = "0%";
+
   }
   return (
     <React.Fragment>

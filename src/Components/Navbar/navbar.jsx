@@ -25,7 +25,7 @@ function navbar() {
           opacity: '0.5',
           width: '0%',
           height: '100%',
-          position: 'absolute',
+          position: 'fixed',
           zIndex: 25,
         }}
       ></div>
